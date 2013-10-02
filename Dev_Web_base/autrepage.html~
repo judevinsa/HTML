@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<!-- Commentaire : en-tête de la page -->
+		<meta charset="utf-8" />
+			<title>Titre</title>
+	</head>
+
+	<body>
+		<p>Voici l'autre page !!!</p>
+
+	</body>
+
+</html>

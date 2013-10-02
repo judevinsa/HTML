@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<!-- Commentaire : en-tête de la page -->
+		<meta charset="utf-8" />
+			<title>Titre</title>
+	</head>
+
+	<body>
+
+		<h1> Page de test HTML </h1>
+
+		<h2 id="ancredeb"> Vraiment le tout début </h2>
+		
+		<!-- Essai des bases de html -->
+		<h3>Au commencement, des paragraphes...</h3>
+		<p> Ceci est un paragraphe </p>
+
+		<p> Ceci en est un autre, très descriptif à vrai dire
+			dans le simple but de voir ce que donne <br /> 
+			un texte sur plusieurs lignes parce que franchement, <br />
+			c'est le bordel ! </p> <br />
+
+		<p>En html, il y a différent moyens de mettre en valeur des mots :<br/>
+			- mev <em>un peu</em> <br />
+			- mev <strong>beaucoup</strong> <br />
+			- On peut faire en sorte de <mark> faire ressortir le texte </mark></p>
+		<br />
+
+		<!-- Essai des listes de html -->
+		<h3>On essaye maintenant les listes</h3>
+		
+		<p>De simples listes à puce</p>
+		<ul>
+			<li>Fruit1 : fraise</li>
+			<li>Fruit2 : pomme : <br/>
+				<!-- On peut imbriquer les listes -->
+				<ul>
+					<li>Golden</li>
+					<li>Granny</li>
+				</ul>
+			</li>
+			<li>Fruit3 : orange</li>
+		</ul>	
+
+		<p>Il y a aussi des listes ordonnées </p>
+		<ol>
+			<li>Je dois acheter de pain</li>
+			<li>Je dois faire une tartine</li>
+		</ol>	
+		<br />
+
+		<h2>Un peu moins le début</h2>
+
+		<h3>Apprendre les liens</h3>
+		
+		<p>Voici un exemple des liens que nous pouvons avoir :</p>
+		<p>Ici un lien externe : le <a href="http://www.google.com" 
+			title="Top cool" target="_blank">Google !</a><br />
+			Il faut se souvenir que lorsque l'on a  des & dans une adresse, il faut remplacer<br />
+			par &amp.<br />
+			On remarque qu'on a forcé l'ouverture d'une nouvelle fenêtre !</p>
+
+		<p>Ici un lien vers une autre page : <a href="autrepage.html">là !</a></p>
+
+		<p>On peut aussi faire des références internes à la page (une ancre) : 
+			<a href="#ancredeb" >vers le début</a></p>
+
+		<p>Enfin, on peut faire des liens pour envoyer des mails, ou pour un DL !<br />
+			Allez voir <a href="http://www.siteduzero.com/informatique/tutoriels/apprenez-a-creer-votre-site-web-avec-html5-et-css3/cas-pratiques-d-utilisation-des-liens">là</a> pour plus de précisions !</p>
+		
+		<br />
+		<h2>On s'intéresse aux images maintenant !</h3>
+		<br />
+		<p>On va s'intéresser aux images maintenant : <br />
+			<a href="images/jax.pgn" ><img src="images/jax2.png" alt="C'est Jax" title="C'est Jax" /></a></p>
+
+		
+
+
+	</body>
+
+</htlm>
